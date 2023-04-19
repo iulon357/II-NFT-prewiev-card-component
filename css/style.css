@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 350px;
+  height: 596px;
+  border: 2px solid blue;
+  background-color: #15263f;
+  padding: 24px;
+  border-radius: 15px;
+  
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8bacd9;
+  margin-top: 16px;
+}
+
+.price-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.eth {
+  width: 11px;
+  height: 18px;
+  margin-right: 7px;
+}
+
+.eth-container {
+  display: flex;
+  align-items: center;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+}
+
+.clock {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+}
+
+.day-container {
+  display: flex;
+  align-items: center;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+
+hr {
+  width: 302px;
+  height: 1px;
+  color: #2e405a;
+  margin-top: 24px;
+  opacity: 0.1;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.footer img {
+  width: 33px;
+  margin-right: 16px;
+}
+
+.footer p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  margin: 0; /* ratom unda marginis ganoleba? */
+}
+
+.footer p span {
+  color: #ffffff;
+}
+
+.footer p span:hover, h1:hover {
+  color: #00FFF8;
+  cursor: pointer;
+}
+
+.image-container{
+  position: relative;
+}
+.eye-container {
+  width: 302px;
+  height: 302px;
+  background-color: #00FFF8;
+  Opacity: 50.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.eye {
+  width: 48px; 
+  height: 48px;
+  color: #ffffff;
+}
+
+.image-container:hover .eye-container {
+  visibility: visible;
+}
+
